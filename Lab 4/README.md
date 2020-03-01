@@ -16,7 +16,7 @@ The program that should
 5. there should be data statements to define the variables and give them initial values.
 
 ## Task 2
-Translate the following program into a complete Sigma16 assembly language program. The varaibles have these initial values: `a` = 0, `x` = 3, `y` = 20.
+Translate the following program into a complete Sigma16 assembly language program. The variables have these initial values: `a` = 0, `x` = 3, `y` = 20.
 
 ```
 if x>y

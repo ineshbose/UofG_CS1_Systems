@@ -8,10 +8,10 @@ _X_ = <a href="https://www.codecogs.com/eqnedit.php?latex=\bg_white&space;\large
 
 The following are the data values: _n_ = 3, the elements of _X_ are 2,5,3 and the elements of _Y_ are 6,2,4. Write a program that sets a variable _p_ to the dot product of _X_ and _Y_. For the given inputs, the result should be _p_ = 2·6 + 5·2 + 3·4 = 34.
 Develop the program using the following steps:
-1. Write initial full line comments giving the name of the program (DotProduct) and the auther. These go at the beginning of the program.
+1. Write initial full line comments giving the name of the program (`DotProduct`). This goes at the beginning of the program.
 2. Write the algorithm using high level language notation. Make the algorithm clear and readable. This should be included in the program, as full line comments.
-3. Translate the algorithm into low level language notation. This emans that the program consists of assignment statements, go statements and conditional goto statements. This too should be included in the program as full line comments.
+3. Translate the algorithm into low level language notation. This means that the program consists of assignment statements, go statements and conditional goto statements. This too should be included in the program as full line comments.
 4. Translate the low level language program into assembly language. Make a copy of each statement in the low level language program, and insert the assembly language instructions right after it. This means that each statement in the low level program will apear twice; once in the complete listing of the program, and again as a header before the instructions.
-5. Define the varaibles using `data` statements. Use the initial values specified in the problem description.
+5. Define the variables using `data` statements. Use the initial values specified in the problem description.
 6. Assemble the program.
 7. Run the program.

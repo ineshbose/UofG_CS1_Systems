@@ -1,7 +1,7 @@
 # Lab 6 (27/02/20)
 
 ## Task 1
-The following assembly language code fragment is supposed to be equivalent to `x := 2+y` but it is poorly written. Find as many things wrong with it and indicate whether each fault is poor style or would cause error messages or runtime errors. Rewrite the code gragment as it should be.
+The following assembly language code fragment is supposed to be equivalent to `x := 2+y` but it is poorly written. Find as many things wrong with it and indicate whether each fault is poor style or would cause error messages or runtime errors. Rewrite the code fragment as it should be.
 
 ```
         load R1,x[R0]
@@ -12,7 +12,7 @@ add R4,R2,R3 ; R4 := R2+R3
 ```
 
 ## Task 2
-Translate the following high level code into low level form (and then assembly language).
+Translate the following high level code into low level form (and then assembly language - _optional_).
 
 ```
 while x<y do
@@ -35,7 +35,7 @@ if x<y || p<q then goto L
 ```
 
 ## Task 4
-Write a program, _saveR13stack_, that uses a stack to save and restore the return addresses. Take the given `zapR13crash.asm.txt` as a starter and make the following modifications to the program:
+Write a program, _saveR13stack_, that uses a stack to save and restore the return addresses. Take the given `zapR13crash.asm` as a starter and make the following modifications to the program:
 
 * Allocate the stack in the data area at the very end of the program:
 
