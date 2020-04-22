@@ -22,3 +22,8 @@ This exercise counts for 10% of the final grade. The program will be marked out 
 * The Delete Command = 20
 * ReleaseNode = 10
 * The program assembles and executes correctly = 20
+
+<br />
+
+**Grade:** 96/100 <br />
+**Feedback:** `Excellent work! A mismatch in the CmdPrint HL to LL and therefore to assembly is causing the program to print out 0 at the start of every list, which is not supposed to happen. Otherwise, very good work.`
